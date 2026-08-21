@@ -17,6 +17,14 @@
   </header>
 
   <main class="contenedor">
+    <input type="text" id="search-input" placeholder="Buscar especie..."/>
+    <div>
+      <button data-animal="Cóndor andino">Cóndor andino</button>
+      <button data-animal="Loro hablador">Loro hablador</button>
+      <button data-animal="Puma">Puma</button>
+    </div>
+    <p id="mensaje-busqueda" hidden>Especie no encontrada. Intenta con otro nombre.</p>
+
     <section class="intro">
       <h2>¿Por qué es importante cuidarlos?</h2>
       <p>
@@ -34,6 +42,8 @@
           y ambientes bien conservados para sobrevivir.
           <img src="imagen/condor andino.jfif" alt="condor Punilla">
         </p>
+       
+
       </article>
 
       <article class="card">
@@ -41,7 +51,11 @@
         <p>
           Es una especie muy llamativa y sensible a la pérdida de hábitat y al tráfico de fauna.
           Su conservación depende de proteger los ambientes nativos.
+          <img src="imagen/loro hablador.jfif" alt="loro Punilla">
         </p>
+  
+        
+
       </article>
 
       <article class="card">
@@ -49,7 +63,9 @@
         <p>
           Aunque todavía habita sectores serranos, sufre la fragmentación del ambiente
           y los conflictos con actividades humanas.
+          <img src="imagen/puma.jfif" alt="puma Punilla">
         </p>
+
       </article>
     </section>
 
@@ -72,6 +88,7 @@
       </p>
     </section>
   </main>
+  <script src="script.js"></script>
 
   <footer>
     <p>Proyecto escolar simple en HTML y CSS - Valle de Punilla, Córdoba</p>
